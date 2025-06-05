@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>338</width>
-    <height>104</height>
+    <height>134</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -62,28 +62,28 @@
       <item>
        <widget class="QCheckBox" name="upperCaseCheckBox">
         <property name="text">
-         <string>Großbuchstaben</string>
+         <string>Uppercase</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QCheckBox" name="lowerCaseCheckBox">
         <property name="text">
-         <string>Kleinbuchstaben</string>
+         <string>Lowercase</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QCheckBox" name="numberCheckBox">
         <property name="text">
-         <string>Ziffern</string>
+         <string>Numbers</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QCheckBox" name="specialCheckBox">
         <property name="text">
-         <string>Sonderzeichen</string>
+         <string>Symbols</string>
         </property>
        </widget>
       </item>
@@ -97,6 +97,9 @@
          <font>
           <family>Monospace</family>
          </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
