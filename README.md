@@ -17,4 +17,4 @@ make
 - g++ or any C++ 17 compatible compiler
 
 ## Example
-[](/example.png)
+![](/example.png)
