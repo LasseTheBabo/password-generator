@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Passwort Generator</string>
+   <string>Password Generator</string>
   </property>
   <property name="windowIcon">
    <iconset theme="QIcon::ThemeIcon::SystemLockScreen"/>
