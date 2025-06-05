@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>338</width>
+    <width>300</width>
     <height>134</height>
    </rect>
   </property>
@@ -27,31 +27,33 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout">
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QSpinBox" name="pLenSpinBox">
-        <property name="minimum">
-         <number>1</number>
+       <widget class="QLineEdit" name="pOutput">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
-        <property name="maximum">
-         <number>20</number>
+        <property name="font">
+         <font>
+          <family>Monospace</family>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QSlider" name="pLenSlider">
-        <property name="minimum">
-         <number>1</number>
+       <widget class="QPushButton" name="regeneratePassword">
+        <property name="text">
+         <string/>
         </property>
-        <property name="maximum">
-         <number>20</number>
-        </property>
-        <property name="value">
-         <number>8</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Orientation::Horizontal</enum>
+        <property name="icon">
+         <iconset theme="QIcon::ThemeIcon::SystemReboot"/>
         </property>
        </widget>
       </item>
@@ -89,27 +91,31 @@
       </item>
      </layout>
     </item>
-    <item row="1" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLineEdit" name="pOutput">
-        <property name="font">
-         <font>
-          <family>Monospace</family>
-         </font>
+       <widget class="QSpinBox" name="pLenSpinBox">
+        <property name="minimum">
+         <number>1</number>
         </property>
-        <property name="readOnly">
-         <bool>true</bool>
+        <property name="maximum">
+         <number>20</number>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="regeneratePassword">
-        <property name="text">
-         <string/>
+       <widget class="QSlider" name="pLenSlider">
+        <property name="minimum">
+         <number>1</number>
         </property>
-        <property name="icon">
-         <iconset theme="QIcon::ThemeIcon::SystemReboot"/>
+        <property name="maximum">
+         <number>20</number>
+        </property>
+        <property name="value">
+         <number>8</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
         </property>
        </widget>
       </item>

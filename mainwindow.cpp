@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    setFixedSize(338, 104);
+    setFixedSize(330, 104);
 
     // Initialize: set SpinBox value to match the Slider
     ui->pLenSpinBox->setValue(ui->pLenSlider->value());
