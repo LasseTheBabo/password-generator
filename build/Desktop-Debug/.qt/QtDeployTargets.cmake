@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_PasswordGenerator_FILE /home/lasse/Dokumente/Programmieren/PasswordGenerator/build/Desktop-Debug/PasswordGenerator)
-set(__QT_DEPLOY_TARGET_PasswordGenerator_TYPE EXECUTABLE)
