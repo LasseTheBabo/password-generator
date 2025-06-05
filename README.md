@@ -17,4 +17,4 @@ make
 - g++ or any C++ 17 compatible compiler
 
 ## Example
-![](/example.png)
+![Screenshot of the password generator. Uppercase, lowercase and 8 characters. The output is "AcotTNWX](/example.png)
